@@ -29,6 +29,23 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-shrink: 0;
+  padding:16px;
+}
+ul
+{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+li
+{
+  margin-bottom;
+}
+
+a
+{
+  text-decoration: none;
+  color:white;
 }
 
 .card {
@@ -36,6 +53,8 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 32px;
+  margin:16px;
+  width:300px;
 }
 
 .center
@@ -46,5 +65,14 @@ body {
 
 .card-container
 {
-  
+display:flex;
+flex-wrap: wrap;
+padding:32px;
+}
+
+.footer
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
